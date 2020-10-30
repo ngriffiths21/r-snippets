@@ -1,6 +1,6 @@
 library(tidyverse)
 
-#' Find errors in purrr calls using safely
+# Find errors in purrr calls using safely
 
 test_stop <- function (x) {   # example function where error occurs
   stopifnot(x == 4)
